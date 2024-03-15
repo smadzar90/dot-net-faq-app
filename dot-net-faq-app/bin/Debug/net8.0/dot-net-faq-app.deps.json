@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "dot-net-faq-app/1.0.0": {
+        "runtime": {
+          "dot-net-faq-app.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dot-net-faq-app/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
