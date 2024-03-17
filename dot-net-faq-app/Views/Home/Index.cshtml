@@ -1,30 +1,89 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<dot_net_faq_app.Models.FAQ>
+@{
+    ViewData["Title"] = "FAQs";
 }
+<div class="container">
+    <div class="row">
+        <div class="col offset-3 pe-0 ps-4">
+            <nav class="navbar navbar-expand mt-2">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link all" href="/">All FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rest" onclick="navigateTopic('boot')">Bootstrap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rest" onclick="navigateTopic('cs')">C#</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rest" onclick="navigateTopic('js')">JavaScript</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 px-0">
+            <a class="nav-link border-top border-start border-end ctg" onclick="navigateCategory('gen')">General</a>
+            <a class="nav-link border ctg" onclick="navigateCategory('hist')">History</a>
+        </div>
+        <div class="col-9 pe-0 ps-4">
+            @foreach (var faq in Model)
+            {
+                <div class="col-12 p-2 border-top border-start border-end @(faq == Model.Last() ? "border-bottom" : "")">
+                    <div class="row">
+                        <div class="col-12">
+                            <strong>@faq.Question</strong> @faq.Answer
+                        </div>
+                        <div class="col-4 pt-4">
+                            Topic: @faq.Topic.Name
+                        </div>
+                        <div class="col-5 offset-2 pt-4">
+                            Category: @faq.Category.Name
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
 
-<div class="row">
-    <div class="col offset-3">
-        <nav class="navbar navbar-expand mt-2">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link all" href="#">All FAQs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link rest" href="#">Bootstrap</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link rest" href="#">C#</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link rest" href="#">JavaScript</a>
-                </li>
-             </ul>
-        </nav>
-    </div>
-</div>
-<div class="row">
-    <div class="col-3">
-        <a class="nav-link border-top border-start border-end ctg" href="#">General</a>
-        <a class="nav-link border ctg" href="#">History</a>
-    </div>
-</div>
+<script>
+    const hist = "category/hist";
+    const gen = "category/gen";
+    const js = "topic/js";
+    const cs = "topic/cs";
+    const boot = "topic/boot";
+    
+    function navigateTopic(topic) {
+        const url = window.location.pathname.toLowerCase();
+
+        if (url.includes(hist)) {
+            window.location.href = "/home/index/category/hist/topic/" + topic + "/";
+        }
+        else if (url.includes(gen)) {
+            window.location.href = "/home/index/category/gen/topic/" + topic + "/";
+        }
+        else {
+            window.location.href = "/home/index/topic/" + topic + "/";
+        }
+    }
+
+    function navigateCategory(category) {
+        const url = window.location.pathname.toLowerCase();
+
+        if (url.includes(js)) {
+            window.location.href = "/home/index/category/" + category + "/topic/js/";
+        }
+        else if (url.includes(cs)) {
+            window.location.href = "/home/index/category/" + category + "/topic/cs/";
+        }
+        else if (url.includes(boot)) {
+            window.location.href = "/home/index/category/" + category + "/topic/boot/";
+        }
+        else {
+            window.location.href = "/home/index/category/" + category + "/";
+        }
+    }
+</script>

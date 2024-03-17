@@ -1,32 +1,54 @@
 using dot_net_faq_app.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using Microsoft.EntityFrameworkCore;
 
 namespace dot_net_faq_app.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly FaqContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(FaqContext context)
         {
-            _logger = logger;
+            _context = context;
+        }
+        public async Task<IActionResult> Index()
+        {
+            var faqs = await _context.FAQs.Include(m => m.Topic).Include(m => m.Category).ToListAsync();
+            return View(faqs);
         }
 
-        public IActionResult Index()
+        [HttpGet("/Home/Index/Topic/{TopicId}")]
+        public async Task<IActionResult> AllFaqsByTopic(string TopicId)
         {
-            return View();
+            var faqs = await _context.FAQs.Include(m => m.Topic).Include(m => m.Category)
+                      .Where(m => m.Topic.TopicId == TopicId).ToListAsync();
+            return View("Index", faqs);
         }
 
-        public IActionResult Privacy()
+        [HttpGet("/Home/Index/Category/{CategoryId}")]
+        public async Task<IActionResult> AllFaqsByCategory(string CategoryId)
         {
-            return View();
+            var faqs = await _context.FAQs.Include(m => m.Topic).Include(m => m.Category)
+                      .Where(m => m.Category.CategoryId == CategoryId).ToListAsync();
+            return View("Index", faqs);
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        [HttpGet("/Home/Index/Category/{CategoryId}/Topic/{TopicId}")]
+        public async Task<IActionResult> FaqsByCategoryAndTopic(string CategoryId, string TopicId)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            var faqs = await _context.FAQs.Include(m => m.Topic).Include(m => m.Category)
+                      .Where(m => m.Category.CategoryId == CategoryId && m.Topic.TopicId == TopicId).ToListAsync();
+            return View("Index", faqs);
         }
+
+        [HttpGet("/Home/Index/Topic/{TopicId}/Category/{CategoryId}")]
+        public async Task<IActionResult> FaqsByCategoryAndTopicReversed(string TopicId, string CategoryId)
+        {
+            var faqs = await _context.FAQs.Include(m => m.Topic).Include(m => m.Category)
+                      .Where(m => m.Category.CategoryId == CategoryId && m.Topic.TopicId == TopicId).ToListAsync();
+            return View("Index", faqs);
+        }
+
     }
 }

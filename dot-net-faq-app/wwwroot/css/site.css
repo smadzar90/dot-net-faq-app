@@ -29,6 +29,7 @@ body {
 .rest {
     color: grey;
     text-decoration: none;
+    cursor: pointer;
 }
 
 ul li {
@@ -36,7 +37,7 @@ ul li {
 }
 
 .rest:hover {
-    color: grey;
+    color: black;
 }
 
 .all {
@@ -50,4 +51,9 @@ ul li {
 .ctg {
     padding-top: 0.7em;
     padding-bottom: 0.7em;
+    cursor: pointer;
+}
+
+.ctg:hover {
+    text-decoration: underline;
 }

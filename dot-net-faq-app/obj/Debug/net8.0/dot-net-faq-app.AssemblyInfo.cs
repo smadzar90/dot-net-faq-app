@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dot-net-faq-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfe2d8f795ef49ea1ad0a7f7271fdb7c42eb421a")]
 [assembly: System.Reflection.AssemblyProductAttribute("dot-net-faq-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dot-net-faq-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

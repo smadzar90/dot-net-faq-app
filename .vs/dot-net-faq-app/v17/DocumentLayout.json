@@ -1,30 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\",
+  "WorkspaceRootPath": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\dokumenti\\dot-net-faq-app\\dot-net-faq-app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\dokumenti\\dot-net-faq-app\\dot-net-faq-app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\dokumenti\\dot-net-faq-app\\dot-net-faq-app\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\dokumenti\\dot-net-faq-app\\dot-net-faq-app\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\dokumenti\\dot-net-faq-app\\dot-net-faq-app\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\dokumenti\\dot-net-faq-app\\dot-net-faq-app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\models\\faqcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\models\\faqcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\models\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\models\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\dot-net-faq-app.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\dot-net-faq-app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dot-net-faq-app\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|c:\\users\\marin\\onedrive\\radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\migrations\\20240317040441_setupfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70C032D-B851-4833-91DA-0CDAD4F87C1F}|dot-net-faq-app\\dot-net-faq-app.csproj|solutionrelative:dot-net-faq-app\\migrations\\20240317040441_setupfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,89 +74,204 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Models\\Topic.cs",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Models\\Topic.cs",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Models\\Topic.cs",
+              "RelativeToolTip": "dot-net-faq-app\\Models\\Topic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T00:17:17.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "dot-net-faq-app\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-14T19:00:51.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "dot-net-faq-app\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-14T19:00:48.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "dot-net-faq-app\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-14T19:00:57.222Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Program.cs",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Program.cs",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Program.cs",
+              "RelativeToolTip": "dot-net-faq-app\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T23:48:04.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "dot-net-faq-app\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\wwwroot\\css\\site.css",
               "RelativeToolTip": "dot-net-faq-app\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAADIAAAAXAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-03-14T21:16:07.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "dot-net-faq-app\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "dot-net-faq-app\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T19:21:47.721Z",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "dot-net-faq-app\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T19:00:38.495Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "dot-net-faq-app\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "dot-net-faq-app\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T19:00:57.222Z",
-              "EditorCaption": ""
+              "DocumentIndex": 8,
+              "Title": "FaqContext.cs",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Models\\FaqContext.cs",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Models\\FaqContext.cs",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Models\\FaqContext.cs",
+              "RelativeToolTip": "dot-net-faq-app\\Models\\FaqContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T00:21:02.794Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "dot-net-faq-app\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "dot-net-faq-app\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "dot-net-faq-app\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T19:00:51.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T19:21:47.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "dot-net-faq-app\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "dot-net-faq-app\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T19:00:48.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "dot-net-faq-app\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "dot-net-faq-app\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "FAQ.cs",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Models\\FAQ.cs",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Models\\FAQ.cs",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Models\\FAQ.cs",
+              "RelativeToolTip": "dot-net-faq-app\\Models\\FAQ.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T19:00:38.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T23:54:21.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Models\\Category.cs",
+              "RelativeToolTip": "dot-net-faq-app\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T00:18:36.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\appsettings.json",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\appsettings.json",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\appsettings.json",
+              "RelativeToolTip": "dot-net-faq-app\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-16T03:19:36.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240317040441_setupFAQ.cs",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Migrations\\20240317040441_setupFAQ.cs",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Migrations\\20240317040441_setupFAQ.cs",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Migrations\\20240317040441_setupFAQ.cs",
+              "RelativeToolTip": "dot-net-faq-app\\Migrations\\20240317040441_setupFAQ.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T04:04:41.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Startup.cs",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\Startup.cs",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\Startup.cs",
+              "RelativeToolTip": "dot-net-faq-app\\Startup.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBgAAACyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T23:53:14.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dot-net-faq-app",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\dot-net-faq-app.csproj",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj",
+              "RelativeToolTip": "dot-net-faq-app\\dot-net-faq-app.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-16T23:04:14.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dot-net-faq-app.csproj",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj",
+              "RelativeDocumentMoniker": "dot-net-faq-app\\dot-net-faq-app.csproj",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Radna povr\u0161ina\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj",
+              "RelativeToolTip": "dot-net-faq-app\\dot-net-faq-app.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-15T23:52:49.609Z"
             }
           ]
         }

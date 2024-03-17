@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj": {}
+    "C:\\Users\\marin\\OneDrive\\Radna površina\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj": {
+    "C:\\Users\\marin\\OneDrive\\Radna površina\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj",
+        "projectUniqueName": "C:\\Users\\marin\\OneDrive\\Radna površina\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj",
         "projectName": "dot-net-faq-app",
-        "projectPath": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj",
+        "projectPath": "C:\\Users\\marin\\OneDrive\\Radna površina\\dot-net-faq-app\\dot-net-faq-app\\dot-net-faq-app.csproj",
         "packagesPath": "C:\\Users\\marin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marin\\OneDrive\\Dokumenti\\dot-net-faq-app\\dot-net-faq-app\\obj\\",
+        "outputPath": "C:\\Users\\marin\\OneDrive\\Radna površina\\dot-net-faq-app\\dot-net-faq-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
