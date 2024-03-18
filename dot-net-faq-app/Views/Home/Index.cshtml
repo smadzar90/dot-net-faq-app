@@ -11,13 +11,19 @@
                         <a class="nav-link all" href="/">All FAQs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rest" onclick="navigateTopic('boot')">Bootstrap</a>
+                        <a class="nav-link rest"
+                           href='@(ViewBag.SelectedCategory == "All" ? "/home/index/topic/boot/" : 
+                                "/home/index/category/" + @ViewBag.SelectedCategory + "/topic/boot/")'>Bootstrap</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rest" onclick="navigateTopic('cs')">C#</a>
+                        <a class="nav-link rest"
+                           href='@(ViewBag.SelectedCategory == "All" ? "/home/index/topic/cs/" :
+                                "/home/index/category/" + @ViewBag.SelectedCategory + "/topic/cs/")'>C#</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rest" onclick="navigateTopic('js')">JavaScript</a>
+                        <a class="nav-link rest"
+                           href='@(ViewBag.SelectedCategory == "All" ? "/home/index/topic/js/" :
+                                "/home/index/category/" + @ViewBag.SelectedCategory + "/topic/js/")'>JavaScript</a>
                     </li>
                 </ul>
             </nav>
@@ -25,8 +31,12 @@
     </div>
     <div class="row">
         <div class="col-3 px-0">
-            <a class="nav-link border-top border-start border-end ctg" onclick="navigateCategory('gen')">General</a>
-            <a class="nav-link border ctg" onclick="navigateCategory('hist')">History</a>
+            <a class="nav-link border-top border-start border-end ctg"
+               href='@(ViewBag.SelectedTopic == "All" ? "/home/index/category/gen/" :
+                                "/home/index/category/gen/topic/" + ViewBag.SelectedTopic + "/")'>General</a>
+            <a class="nav-link border ctg"
+               href='@(ViewBag.SelectedTopic == "All" ? "/home/index/category/hist/" :
+                                "/home/index/category/hist/topic/" + ViewBag.SelectedTopic + "/")'>History</a>
         </div>
         <div class="col-9 pe-0 ps-4">
             @foreach (var faq in Model)
@@ -49,6 +59,7 @@
     </div>
 </div>
 
+@* JavaScript route navigation logic
 <script>
     const hist = "category/hist";
     const gen = "category/gen";
@@ -86,4 +97,4 @@
             window.location.href = "/home/index/category/" + category + "/";
         }
     }
-</script>
+</script> *@

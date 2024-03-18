@@ -2,7 +2,7 @@
 {
     public class Topic
     {
-        public String TopicId { get; set; }
-        public string Name { get; set; }
+        public String TopicId { get; set; } = null!;
+        public string Name { get; set; } = null!;
     }
 }

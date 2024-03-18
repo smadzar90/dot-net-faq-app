@@ -2,7 +2,7 @@
 {
     public class Category
     {
-        public String CategoryId { get; set; }
-        public string Name { get; set; }
+        public String CategoryId { get; set; } = null!;
+        public string Name { get; set; } = null!;
     }
 }

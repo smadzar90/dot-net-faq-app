@@ -3,11 +3,11 @@
     public class FAQ
     {
         public int FAQId { get; set; }
-        public String Question { get; set; }
-        public String Answer { get; set; }
-        public String TopicId { get; set; }
-        public Topic Topic { get; set; }
-        public String CategoryId { get; set; }
-        public Category Category { get; set; }
+        public String Question { get; set; } = null!;
+        public String Answer { get; set; } = null!;
+        public String TopicId { get; set; } = null!;
+        public Topic Topic { get; set; } = null!;
+        public String CategoryId { get; set; } = null!;
+        public Category Category { get; set; } = null!;
     }
 }

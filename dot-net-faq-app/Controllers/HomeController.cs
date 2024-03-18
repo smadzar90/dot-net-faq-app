@@ -14,6 +14,8 @@ namespace dot_net_faq_app.Controllers
         }
         public async Task<IActionResult> Index()
         {
+            ViewBag.SelectedCategory = "All";
+            ViewBag.SelectedTopic = "All";
             var faqs = await _context.FAQs.Include(m => m.Topic).Include(m => m.Category).ToListAsync();
             return View(faqs);
         }
@@ -21,6 +23,8 @@ namespace dot_net_faq_app.Controllers
         [HttpGet("/Home/Index/Topic/{TopicId}")]
         public async Task<IActionResult> AllFaqsByTopic(string TopicId)
         {
+            ViewBag.SelectedCategory = "All";
+            ViewBag.SelectedTopic = TopicId;
             var faqs = await _context.FAQs.Include(m => m.Topic).Include(m => m.Category)
                       .Where(m => m.Topic.TopicId == TopicId).ToListAsync();
             return View("Index", faqs);
@@ -29,6 +33,8 @@ namespace dot_net_faq_app.Controllers
         [HttpGet("/Home/Index/Category/{CategoryId}")]
         public async Task<IActionResult> AllFaqsByCategory(string CategoryId)
         {
+            ViewBag.SelectedCategory = CategoryId;
+            ViewBag.SelectedTopic = "All";
             var faqs = await _context.FAQs.Include(m => m.Topic).Include(m => m.Category)
                       .Where(m => m.Category.CategoryId == CategoryId).ToListAsync();
             return View("Index", faqs);
@@ -37,6 +43,8 @@ namespace dot_net_faq_app.Controllers
         [HttpGet("/Home/Index/Category/{CategoryId}/Topic/{TopicId}")]
         public async Task<IActionResult> FaqsByCategoryAndTopic(string CategoryId, string TopicId)
         {
+            ViewBag.SelectedCategory = CategoryId;
+            ViewBag.SelectedTopic = TopicId;
             var faqs = await _context.FAQs.Include(m => m.Topic).Include(m => m.Category)
                       .Where(m => m.Category.CategoryId == CategoryId && m.Topic.TopicId == TopicId).ToListAsync();
             return View("Index", faqs);
@@ -45,6 +53,8 @@ namespace dot_net_faq_app.Controllers
         [HttpGet("/Home/Index/Topic/{TopicId}/Category/{CategoryId}")]
         public async Task<IActionResult> FaqsByCategoryAndTopicReversed(string TopicId, string CategoryId)
         {
+            ViewBag.SelectedCategory = CategoryId;
+            ViewBag.SelectedTopic = TopicId;
             var faqs = await _context.FAQs.Include(m => m.Topic).Include(m => m.Category)
                       .Where(m => m.Category.CategoryId == CategoryId && m.Topic.TopicId == TopicId).ToListAsync();
             return View("Index", faqs);
